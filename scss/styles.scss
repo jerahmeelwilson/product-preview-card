@@ -1,0 +1,28 @@
+$primary-color-bg: hsl(30, 38%, 92%);
+$primary-color-card: #F2F2F2;;
+$border-radius: 15px;
+
+body{
+    padding: 0;
+    background-color: $primary-color-bg;
+    width: 375px;
+    margin: 0 auto;
+}
+
+
+main{
+    width: 91%;
+    background-color: $primary-color-card;
+    margin: 1.78em auto;
+    border-radius: $border-radius;
+}
+
+@media screen and (max-width: 768px){
+    #product-image{
+        content:url("../images/image-product-mobile.jpg");
+        object-fit: cover;
+        width: 100%;
+        border-top-left-radius: $border-radius;
+        border-top-right-radius: $border-radius;
+    }
+}
