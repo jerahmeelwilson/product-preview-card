@@ -86,7 +86,7 @@ section {
   background-color: hsl(212, 21%, 14%);
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
   body {
     width: 375px;
   }
@@ -101,7 +101,7 @@ section {
     border-top-right-radius: 10px;
   }
 }
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 601px) {
   section {
     padding: 30px;
   }
