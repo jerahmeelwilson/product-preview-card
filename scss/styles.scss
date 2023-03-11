@@ -120,6 +120,8 @@ section {
   }
   #product-image {
     width: 300px;
+    border-top-left-radius: $border-radius;
+    border-bottom-left-radius: $border-radius;
   }
   .product-name {
     margin-top: 22px;
