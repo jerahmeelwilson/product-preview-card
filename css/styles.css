@@ -94,7 +94,7 @@ section {
     width: 91%;
   }
   #product-image {
-    content: url("images/image-product-mobile.jpg");
+    content: url("../images/image-product-mobile.jpg");
     object-fit: cover;
     width: 100%;
     border-top-left-radius: 10px;
