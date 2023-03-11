@@ -83,7 +83,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .cart-icon {
@@ -119,9 +119,8 @@ section {
     margin-top: 40%;
   }
   #product-image {
-    width: 50%;
+    width: 300px;
   }
-
   .product-name {
     margin-top: 22px;
     margin-bottom: 26px;
