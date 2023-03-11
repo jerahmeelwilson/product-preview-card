@@ -21,7 +21,7 @@ main {
 section {
   padding: 20px;
   font-family: "Montserrat";
-  color: hsl(228, 12%, 48%);
+  color: #f2f2f2;
 }
 
 .product-type {
@@ -46,6 +46,7 @@ section {
   font-size: 15px;
   line-height: 24px;
   font-weight: 500;
+  color: hsl(228, 12%, 48%);
 }
 
 .product-price {
@@ -107,7 +108,7 @@ section {
   }
   main {
     display: flex;
-    margin-top: 30%;
+    margin-top: 25%;
   }
   #product-image {
     width: 300px;
