@@ -83,6 +83,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer
 }
 
 .cart-icon {
@@ -91,7 +92,6 @@ section {
 
 .add-to-cart-btn:hover {
   background-color: $font-color-darkblue;
-  cursor: hand;
 }
 
 @media screen and (max-width: 425px) {
