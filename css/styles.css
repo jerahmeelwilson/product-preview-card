@@ -13,7 +13,7 @@ body {
 }
 
 main {
-  background-color: #f2f2f2;
+  background-color: #FFFFFF;
   margin: 1.78em auto;
   border-radius: 10px;
 }
@@ -21,7 +21,7 @@ main {
 section {
   padding: 20px;
   font-family: "Montserrat";
-  color: #f2f2f2;
+  color: #FFFFFF;
 }
 
 .product-type {
@@ -71,7 +71,7 @@ section {
 
 .add-to-cart-btn {
   width: 100%;
-  color: #f2f2f2;
+  color: #FFFFFF;
   background-color: hsl(158, 36%, 37%);
   border-radius: 10px;
   display: flex;
