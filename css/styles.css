@@ -109,7 +109,7 @@ section {
   }
   main {
     display: flex;
-    margin-top: 20%;
+    margin-top: 10%;
   }
   #product-image {
     width: 300px;
