@@ -1,129 +1,132 @@
+---
+---
+
 $primary-color-bg: hsl(30, 38%, 92%);
 $font-color-grey: hsl(228, 12%, 48%);
 $font-color-darkblue: hsl(212, 21%, 14%);
 $font-color-darkcyan: hsl(158, 36%, 37%);
-$primary-color-card: #F2F2F2;
+$primary-color-card: #f2f2f2;
 
 $border-radius: 10px;
 
-
-h1,h2,h3{
-    margin: 0;
+h1,
+h2,
+h3 {
+  margin: 0;
 }
 
-body{
-    padding: 0;
-    background-color: $primary-color-bg;
-    width: 600px;
-    height: 450px;
-    margin: 0 auto;
+body {
+  padding: 0;
+  background-color: $primary-color-bg;
+  width: 600px;
+  height: 450px;
+  margin: 0 auto;
 }
 
-main{
-    background-color: $primary-color-card;
-    margin: 1.78em auto;
-    border-radius: $border-radius;
+main {
+  background-color: $primary-color-card;
+  margin: 1.78em auto;
+  border-radius: $border-radius;
 }
 
-section{
-    padding: 20px;
-    font-family: 'Montserrat';
-    color: $font-color-grey;
+section {
+  padding: 20px;
+  font-family: "Montserrat";
+  color: $font-color-grey;
 }
 
 .product-type {
-    font-size: 12px;
-    font-weight:500;
-    letter-spacing: 5px;
-    margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin: 0;
 }
 
-.product-name{
-    color: $font-color-darkblue;
-    font-size: 32px;
-    font-weight: 900;
-    font-family: 'Fraunces';
-    margin-top: 12px;
-    margin-bottom: 16px;
-    line-height: 32px;
+.product-name {
+  color: $font-color-darkblue;
+  font-size: 32px;
+  font-weight: 900;
+  font-family: "Fraunces";
+  margin-top: 12px;
+  margin-bottom: 16px;
+  line-height: 32px;
 }
 
-.product-description{
-    margin: 0;
-    font-size: 15px;
-    line-height: 24px;
-    font-weight: 500;
+.product-description {
+  margin: 0;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
 }
 
-.product-price{
-    font-family: 'Fraunces';
-    font-size: 21px !important; 
-    color: $font-color-darkcyan;
-    padding-top: 24px;
-    padding-bottom: 20px;
-    display: flex;
-    align-items: center;
+.product-price {
+  font-family: "Fraunces";
+  font-size: 21px !important;
+  color: $font-color-darkcyan;
+  padding-top: 24px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
 }
 
-.product-full-price{
-    font-size: 16px;
-    padding-left: 20px;
-    text-decoration:line-through;
-    font-family: 'Montserrat';
-    color: $font-color-grey;
-    font-weight: 500;
+.product-full-price {
+  font-size: 16px;
+  padding-left: 20px;
+  text-decoration: line-through;
+  font-family: "Montserrat";
+  color: $font-color-grey;
+  font-weight: 500;
 }
 
-.add-to-cart-btn{
+.add-to-cart-btn {
+  width: 100%;
+  color: $primary-color-card;
+  background-color: $font-color-darkcyan;
+  border-radius: $border-radius;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-icon {
+  padding-right: 12px;
+}
+
+.add-to-cart-btn:hover {
+  background-color: $font-color-darkblue;
+  cursor: hand;
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    width: 375px;
+  }
+  main {
+    width: 91%;
+  }
+  #product-image {
+    content: url("../images/image-product-mobile.jpg");
+    object-fit: cover;
     width: 100%;
-    color: $primary-color-card;
-    background-color: $font-color-darkcyan;
-    border-radius: $border-radius;
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+  }
+}
+
+@media screen and (min-width: 426px) {
+  section {
+    padding: 30px;
+  }
+  main {
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    margin-top: 40%;
+  }
+  #product-image {
+    width: 50%;
+  }
 
-.cart-icon{
-    padding-right:12px;
-}
-
-
-.add-to-cart-btn:hover{
-    background-color:$font-color-darkblue;
-    cursor: hand;
-}
-
-@media screen and (max-width: 425px){
-    body{
-        width: 375px;
-    }
-    main{
-        width: 91%;
-    }
-    #product-image{
-        content:url("../images/image-product-mobile.jpg");
-        object-fit: cover;
-        width: 100%;
-        border-top-left-radius: $border-radius;
-        border-top-right-radius: $border-radius;
-    }
-}
-
-@media screen and (min-width: 426px){
-    section{
-        padding:30px;
-    }
-    main{
-        display: flex;
-        margin-top: 40%;
-    }
-    #product-image{
-        width: 50%;
-    }
-
-    .product-name{
-        margin-top: 22px;
-        margin-bottom: 26px;
-    }
+  .product-name {
+    margin-top: 22px;
+    margin-bottom: 26px;
+  }
 }
