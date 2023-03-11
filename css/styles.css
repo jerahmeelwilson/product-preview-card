@@ -25,6 +25,7 @@ section {
 }
 
 .product-type {
+  color: hsl(228, 12%, 48%);
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 5px;
